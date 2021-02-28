@@ -2,17 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>life on solenのblog</title>
-    <link>https://solen0.github.io/tags/life/</link>
+    <link>https://example.com/tags/life/</link>
     <description>Recent content in life on solenのblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Feb 2021 23:53:03 +0800</lastBuildDate><atom:link href="https://solen0.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 15:13:09 +0800</lastBuildDate><atom:link href="https://example.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人博客的搭建历程</title>
+      <link>https://example.com/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</link>
+      <pubDate>Sun, 28 Feb 2021 15:13:09 +0800</pubDate>
+      
+      <guid>https://example.com/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
+      <description>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
+&lt;p&gt;在学习途中,看的东西实在太杂,准备做些整理,想来若是写在纸上,不久就积灰了,况且我始终没把字练好,随即作罢&lt;/p&gt;
+&lt;p&gt;某日,忽的注意到平常查资料事看到的别人的个人博客,甚是精美,于是惦记上了&lt;/p&gt;
+&lt;p&gt;在通过囫囵的查找后,选择了一个看起来最方便简单的方式来搭建一个自己的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Solen</title>
-      <link>https://solen0.github.io/post/solen/</link>
+      <link>https://example.com/post/solen/</link>
       <pubDate>Sat, 27 Feb 2021 23:53:03 +0800</pubDate>
       
-      <guid>https://solen0.github.io/post/solen/</guid>
+      <guid>https://example.com/post/solen/</guid>
       <description>初次登场!!!!!</description>
     </item>
     
