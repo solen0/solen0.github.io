@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solenのblog</title>
+    <link>https://solen0.github.io/</link>
+    <description>Recent content on solenのblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Feb 2021 23:53:03 +0800</lastBuildDate><atom:link href="https://solen0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solen</title>
+      <link>https://solen0.github.io/post/solen/</link>
+      <pubDate>Sat, 27 Feb 2021 23:53:03 +0800</pubDate>
+      
+      <guid>https://solen0.github.io/post/solen/</guid>
+      <description>初次登场!!!!!</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>https://solen0.github.io/about/</link>
+      <pubDate>Sat, 11 Apr 2020 19:15:32 +0800</pubDate>
+      
+      <guid>https://solen0.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.</description>
+    </item>
+    
+  </channel>
+</rss>

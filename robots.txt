@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://solen0.github.io/sitemap.xml
