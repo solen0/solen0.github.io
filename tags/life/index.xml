@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>life on solenのblog</title>
-    <link>https://example.com/tags/life/</link>
+    <link>https://solen0.gitee.io/tags/life/</link>
     <description>Recent content in life on solenのblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Feb 2021 15:13:09 +0800</lastBuildDate><atom:link href="https://example.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 15:13:09 +0800</lastBuildDate><atom:link href="https://solen0.gitee.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搭建个人博客</title>
-      <link>https://example.com/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://solen0.gitee.io/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 28 Feb 2021 15:13:09 +0800</pubDate>
       
-      <guid>https://example.com/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://solen0.gitee.io/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
 &lt;p&gt;在学习途中,看的东西实在太杂,准备做些整理,想来若是写在纸上,不久就积灰了,况且我始终没把字练好,随即作罢&lt;/p&gt;
 &lt;p&gt;某日,忽的注意到平常查资料事看到的别人的个人博客,甚是精美,于是惦记上了&lt;/p&gt;
@@ -21,10 +21,10 @@
     
     <item>
       <title>Solen</title>
-      <link>https://example.com/post/solen/</link>
+      <link>https://solen0.gitee.io/post/solen/</link>
       <pubDate>Sat, 27 Feb 2021 23:53:03 +0800</pubDate>
       
-      <guid>https://example.com/post/solen/</guid>
+      <guid>https://solen0.gitee.io/post/solen/</guid>
       <description>初次登场!!!!!</description>
     </item>
     
