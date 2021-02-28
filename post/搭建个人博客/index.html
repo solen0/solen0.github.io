@@ -39,12 +39,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://solen0.github.io/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" /><meta property="og:description" content="缘起
 在学习途中,看的东西实在太杂,准备做些整理,想来若是写在纸上,不久就积灰了,况且我始终没把字练好,随即作罢
-某日,忽的注意到平常查资料事看到的别人的个人博客,甚是精美,于是惦记上了
-在通过囫囵的查找后,选择了一个看起来最方便简单的方式来搭建一个自己的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]" />
+某日,忽的注意到别人的个人博客,甚是精美,于是惦记上了
+此后通过囫囵的查找后,决定用Hugo搭建一个简洁的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]" />
 <meta name="twitter:description" content="缘起
 在学习途中,看的东西实在太杂,准备做些整理,想来若是写在纸上,不久就积灰了,况且我始终没把字练好,随即作罢
-某日,忽的注意到平常查资料事看到的别人的个人博客,甚是精美,于是惦记上了
-在通过囫囵的查找后,选择了一个看起来最方便简单的方式来搭建一个自己的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]" /><meta property="og:image" content="https://solen0.github.io/img/og.png" />
+某日,忽的注意到别人的个人博客,甚是精美,于是惦记上了
+此后通过囫囵的查找后,决定用Hugo搭建一个简洁的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]" /><meta property="og:image" content="https://solen0.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://solen0.github.io/img/og.png" /><meta property="article:published_time" content="2021-02-28T15:13:09+08:00" /><meta property="article:modified_time" content="2021-02-28T15:13:09+08:00" />
 
@@ -107,36 +107,39 @@
         <a href="https://solen0.github.io/post/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">搭建个人博客</a>
     </h2>
     <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-02-28</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1215 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/life">life</a>&nbsp;<a href="/tags/blog">blog</a>&nbsp;<a href="/tags/hugo">hugo</a>&nbsp;</span>
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-02-28</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;1360 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/life">life</a>&nbsp;<a href="/tags/blog">blog</a>&nbsp;<a href="/tags/hugo">hugo</a>&nbsp;</span>
 
     </div>
     
     <div class="post-content markdown-body">
         <h2 id="缘起">缘起</h2>
 <p>在学习途中,看的东西实在太杂,准备做些整理,想来若是写在纸上,不久就积灰了,况且我始终没把字练好,随即作罢</p>
-<p>某日,忽的注意到平常查资料事看到的别人的个人博客,甚是精美,于是惦记上了</p>
-<p>在通过囫囵的查找后,选择了一个看起来最方便简单的方式来搭建一个自己的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]</p>
-<h2 id="博客框架-hugo">博客框架-hugo</h2>
-<p>经过一段时间的探索,我决定用Golang语言的Hugo搭建个人博客,并将其部署在GitHub和Gitee上</p>
+<p>某日,忽的注意到别人的个人博客,甚是精美,于是惦记上了</p>
+<p>此后通过囫囵的查找后,决定用Hugo搭建一个简洁的个人博客,并在闲暇时记录下我的旅途,顺便提升下我的写作水平[笑]</p>
+<h2 id="博客框架-hugo">博客框架-Hugo</h2>
+<p>搭建个人博客,首先便是安装Hugo环境</p>
 <ul>
-<li>安装<a href="https://github.com/gohugoio/hugo/releases/tag/v0.81.0" target="_blank">Hugo: https://github.com/gohugoio/hugo/releases/</a></li>
+<li>下载<a href="https://github.com/gohugoio/hugo/releases/tag/v0.81.0" target="_blank">Hugo</a></li>
 </ul>
 <p><img class="img-zoomable" src="/img/blog/1.1.png" alt="1.1" />
 </p>
-<p>解压后将其中&quot;hugo.exe&quot;移动到合适位置</p>
+<p>下载完文件后,将其解压到合适位置</p>
 <p><img class="img-zoomable" src="/img/blog/1.2.png" alt="1.2" />
 </p>
+<ul>
+<li>配置环境变量</li>
+</ul>
 <p>&ldquo;此电脑&quot;右键-&gt;属性-&gt;右侧的&quot;高级系统设置&rdquo;-&gt;环境变量-&gt;系统变量-&gt;&ldquo;Path&quot;中增加&quot;hugo.exe&quot;所在路径</p>
 <p><img class="img-zoomable" src="/img/blog/1.3.png" alt="1.3" />
 </p>
-<p>在命令行中输入</p>
+<p>在命令行中输入(win + R 输入cmd回车)</p>
 <pre><code class="language-base">hugo version
 </code></pre>
 <p>显示版本号表示安装成功</p>
 <p><img class="img-zoomable" src="/img/blog/1.4.png" alt="1.4" />
 </p>
 <h2 id="用hugo生成个人博客">用Hugo生成个人博客</h2>
-<p>在命令行中输入生成博客,&ldquo;myblog&quot;可任意设置</p>
+<p>&ldquo;myblog&quot;可任意设置</p>
 <pre><code class="language-base">hugo new site myblog
 cd myblog
 </code></pre>
@@ -165,7 +168,7 @@ cd ..
 hugo serve -t  fuji --buildDrafts
 </code></pre>
 <p>由于clone速度太慢,把&quot;github.com&quot;换成了&quot;github.com.cnpmjs.org&rdquo;(国内镜像)</p>
-<p>其中&rdquo;&ndash;buildDrafts&quot;,如果文章格式与主题默认文章格式一样可以不加,默认格式在&quot;archetypes&quot;中可修改,主题中可能是在&quot;archives&quot;或其它中</p>
+<p>其中&rdquo;&ndash;buildDrafts&quot;,如果文章格式与主题默认文章格式一样可以不加,默认格式在&quot;archetypes&quot;中可修改,主题中可能是在&quot;archives&quot;或其它地方</p>
 <p>此时打开 <a href="http://localhost:1313/">http://localhost:1313/</a> 可以看到博客模板已经布置好了</p>
 <h2 id="部署博客到github">部署博客到GitHub</h2>
 <p>GitHub上建新仓库,名字前面要与用户名相同</p>
@@ -174,18 +177,18 @@ hugo serve -t  fuji --buildDrafts
 <img class="img-zoomable" src="/img/blog/5-2.png" alt="5-2" />
 </p>
 <p>博客文件夹下,开始部署</p>
-<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://solen0.github.io/&quot; --buildDrafts    
+<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://你的用户名.github.io/&quot; --buildDrafts    
 cd public
 git init                   
 git add .
 git commit -m &quot;first commit&quot;         
-git remote add origin https://github.com/solen0/solen0.github.io.git
+git remote add origin https://github.com/你的用户名/你的用户名.github.io.git
 git push -u origin master
 </code></pre>
 <p>最后一步可能有网络问题(超时,连接重置),可以在hosts中加上GitHub IP地址(经常变,网上查)</p>
 <p><img class="img-zoomable" src="/img/blog/5-21.png" alt="5.21" />
 </p>
-<p>之后就可以通过&quot;solen0.github.io&quot;访问博客啦</p>
+<p>之后就可以通过&quot;你的用户名.github.io&quot;访问博客啦</p>
 <p><img class="img-zoomable" src="/img/blog/5-3.png" alt="5.3" />
 </p>
 <h2 id="部署博客到gitee">部署博客到gitee</h2>
@@ -193,12 +196,12 @@ git push -u origin master
 <img class="img-zoomable" src="/img/blog/6-1.png" alt="6-1" />
 </p>
 <p>博客文件夹下,开始部署</p>
-<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://solen0.gitee.io/&quot; --buildDrafts    
+<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://你的用户名.gitee.io/&quot; --buildDrafts    
 cd public
 git init                   
 git add .
 git commit -m &quot;first commit&quot;
-git remote add origin https://gitee.com/solen0/solen0.git
+git remote add origin https://gitee.com/你的用户名/你的用户名.git
 git push -u origin master
 </code></pre>
 <p>配置Gitee Pages
@@ -207,7 +210,7 @@ git push -u origin master
 <p>启动
 <img class="img-zoomable" src="/img/blog/6-3.png" alt="6-3" />
 </p>
-<p>之后就可以通过&quot;https://solen0.gitee.io/&ldquo;访问博客啦</p>
+<p>之后就可以通过&quot;https://你的用户名.gitee.io/&ldquo;访问博客啦</p>
 <h2 id="写博客以github为例">写博客(以GitHub为例)</h2>
 <p>命令行中,在博客目录下(myblog),创建新文章</p>
 <pre><code class="language-base">hugo new post\test.md
@@ -216,7 +219,7 @@ git push -u origin master
 <ul>
 <li>文章更新</li>
 </ul>
-<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://solen0.github.io/&quot; --buildDrafts    
+<pre><code class="language-base">hugo --theme=fuji --baseUrl=&quot;https://你的用户名.github.io/&quot; --buildDrafts    
 cd public
 git init
 git add -A
@@ -304,7 +307,7 @@ git push
         <h3>TOC</h3><nav id="TableOfContents">
   <ul>
     <li><a href="#缘起">缘起</a></li>
-    <li><a href="#博客框架-hugo">博客框架-hugo</a></li>
+    <li><a href="#博客框架-hugo">博客框架-Hugo</a></li>
     <li><a href="#用hugo生成个人博客">用Hugo生成个人博客</a></li>
     <li><a href="#寻找个人博客主题">寻找个人博客主题</a></li>
     <li><a href="#部署博客到github">部署博客到GitHub</a></li>
@@ -393,7 +396,7 @@ git push
         <nav id="TableOfContents">
   <ul>
     <li><a href="#缘起">缘起</a></li>
-    <li><a href="#博客框架-hugo">博客框架-hugo</a></li>
+    <li><a href="#博客框架-hugo">博客框架-Hugo</a></li>
     <li><a href="#用hugo生成个人博客">用Hugo生成个人博客</a></li>
     <li><a href="#寻找个人博客主题">寻找个人博客主题</a></li>
     <li><a href="#部署博客到github">部署博客到GitHub</a></li>
