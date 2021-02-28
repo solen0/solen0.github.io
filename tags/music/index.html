@@ -22,7 +22,7 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<title>Solen - solenのblog</title>
+<title>music - solenのblog</title>
 
 
 <meta name="author" content="solenのblog" />
@@ -31,16 +31,13 @@
 <meta name="description" content="A minimal Hugo theme with nice theme color." />
 
 
-<meta name="keywords" content="life" />
 
-
-<meta property="og:title" content="Solen" />
-<meta name="twitter:title" content="Solen" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://solen0.github.io/post/solen0/" /><meta property="og:description" content="初次登场" />
-<meta name="twitter:description" content="初次登场" /><meta property="og:image" content="https://solen0.github.io/img/og.png" />
+<meta property="og:title" content="music" />
+<meta name="twitter:title" content="music" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://solen0.github.io/tags/music/" /><meta property="og:image" content="https://solen0.github.io/img/og.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://solen0.github.io/img/og.png" /><meta property="article:published_time" content="2021-02-27T23:53:03+08:00" /><meta property="article:modified_time" content="2021-02-27T23:53:03+08:00" />
+<meta name="twitter:image" content="https://solen0.github.io/img/og.png" /><meta property="og:updated_time" content="2021-02-27T23:53:03+08:00" />
 
 
 <style>
@@ -59,8 +56,6 @@
 
 <link rel="stylesheet" href="https://solen0.github.io/assets/css/fuji.min.css" />
 
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" />
 
 
 
@@ -97,30 +92,31 @@
             
             <div class="col-12 col-md-9 float-left content">
                 
-<article>
-    
-    <h2 class="post-item post-title">
-        <a href="https://solen0.github.io/post/solen0/">Solen</a>
-    </h2>
-    <div class="post-item post-meta">
-        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-02-27</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;4 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/life">life</a>&nbsp;</span>
 
-    </div>
-    
-    <div class="post-content markdown-body">
-        <h2 id="初次登场">初次登场</h2>
-<div class="post-player-wrapper">
-  <div
-    class="post-aplayer"
-    data-urls="/aplayer/Main-Title-Theme.mp3"
-    data-names="Main-Title-Theme"
-    data-artists="Ramin-Djawadi"
-    data-covers="/aplayer/westword.jpg"
-  ></div>
+<div class="page-info">
+    <span>Posts with the tag music: </span>
 </div>
 
+
+
+<div class="post">
+    <h2 class="post-item post-title">
+        <a href="https://solen0.github.io/post/solen/">Solen</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2021-02-27</span><span><i class="iconfont icon-file-tray-sharp"></i>&nbsp;4 words</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/life">life</a>&nbsp;<a href="/tags/music">music</a>&nbsp;</span>
+
     </div>
-</article>
+    <div class="post-item post-summary markdown-body">
+        初次登场
+    </div>
+</div>
+
+
+
+
+
+
 
 
 
@@ -182,14 +178,15 @@
                 <a href="/tags/life/">life</a>
             </span>
             
+            <span>
+                <a href="/tags/music/">music</a>
+            </span>
+            
         </div>
     </div>
-    <div class="sidebar-item sidebar-toc">
-        <h3>TOC</h3><nav id="TableOfContents">
-  <ul>
-    <li><a href="#初次登场">初次登场</a></li>
-  </ul>
-</nav></div>
+    
+    
+    
 </aside>
         </div>
         <div class="btn">
@@ -260,18 +257,11 @@
                 <a href="/tags/life/">life</a>
             </span>
             
+            <span>
+                <a href="/tags/music/">music</a>
+            </span>
+            
         </div>
-    </div>
-    
-    
-    
-    <div class="sidebar-item sidebar-toc">
-        <h3>TOC</h3>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#初次登场">初次登场</a></li>
-  </ul>
-</nav>
     </div>
     
     
@@ -304,53 +294,6 @@
 
 <script defer src="/assets/js/fuji.min.js"></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-<script>
-  
-  var pContainers = document.querySelectorAll('.content article .post-aplayer');
-  if (pContainers && pContainers.length > 0) {
-    pContainers.forEach(function (container) {
-      var attrs = ['urls', 'names', 'artists', 'covers'];
-      attrs = attrs.map(function (attr) {
-        var arr = container.getAttribute('data-' + attr).replace(/( |%20)/ig, '').split(',');
-        if (arr.length > 0){
-          return arr.map(function (val) {
-            return String(val).trim();
-          });
-        } else {
-          return attr;
-        }
-      });
-      var audio = [];
-      for (var i = 0; i < attrs[0].length; i++) {
-        var a = {
-          name: attrs[1][i],
-          url: attrs[0][i],
-        };
-        (typeof attrs[2] !== 'string') && (a.artist = attrs[2][i]);
-        (typeof attrs[3] !== 'string') && (a.cover = attrs[3][i]);
-        audio.push(a);
-      }
-      new APlayer({
-        container: container,
-        theme: '#8f82bc',
-        volume: 0.1,
-        listFolded: true,
-        audio: audio
-      });
-    });
-  }
-  
-  
-  document.addEventListener('DOMContentLoaded', function () {
-    var issueTocEle = document.querySelector('.sidebar-toc');
-    if (issueTocEle) {
-      var newTocEle = issueTocEle.cloneNode(true);
-      issueTocEle.parentNode.replaceChild(newTocEle, issueTocEle);
-    }
-  });
-</script>
 
 </body>
 
