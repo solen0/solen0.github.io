@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AR on solenのblog</title>
-    <link>https://solen0.github.io/tags/ar/</link>
+    <link>http://solen0.github.io/tags/ar/</link>
     <description>Recent content in AR on solenのblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 May 2021 11:15:00 +0800</lastBuildDate><atom:link href="https://solen0.github.io/tags/ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 11:15:00 +0800</lastBuildDate><atom:link href="http://solen0.github.io/tags/ar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>unity</title>
-      <link>https://solen0.github.io/post/unity/</link>
+      <link>http://solen0.github.io/post/unity/</link>
       <pubDate>Tue, 04 May 2021 11:15:00 +0800</pubDate>
       
-      <guid>https://solen0.github.io/post/unity/</guid>
+      <guid>http://solen0.github.io/post/unity/</guid>
       <description></description>
     </item>
     
